@@ -5,9 +5,7 @@
 ** Description: Runs Langton's Ant simulation. Gets several inputs from user 
 * including number of rows, columns, steps, starting row, and starting column.
 * Requires Ant & menu headers.
-* Runs main menu first time and 2ndary menu after first gameplay. Allows
-* user to quit function by returning 0. Program includes makefile and should be run
-* with ./assignment2. 
+* Runs main menu first time and 2ndary menu after first gameplay.
 *********************************************************************/
 #include "Ant.hpp"
 #include "menu.hpp"
