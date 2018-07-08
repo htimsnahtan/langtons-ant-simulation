@@ -22,7 +22,6 @@ int menu(int &numRows, int &numCols, int &startingRow, int &startingCol, int &nu
     
     if (firstTimeRun)
     {
-    std::cout   << "*NOTE:* I am doing extra credit by asking for the random starting location." << std::endl;
     std::cout   << "Please choose an option:\n"
                 << "1. Start Langton's Ant simulation\n"
                 << "2. Quit\n"; 
