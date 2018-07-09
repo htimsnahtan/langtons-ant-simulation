@@ -11,7 +11,7 @@ assignment1: ${OBJS} ${HEADERS}
 	${CXX} ${SRCS} -o langtonSimulation
 	
 ${OBJS}: ${SRCS}
-	${CXX} ${CSSFLAGS} -c $(@:.o=.cpp)
+	${CXX} ${CXXFLAGS} -c $(@:.o=.cpp)
 	
 clean:
 	rm ${OBJS}
